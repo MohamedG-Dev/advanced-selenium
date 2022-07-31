@@ -1,0 +1,4 @@
+$title = $CmdLine[1]
+$textOnMsgBox = $CmdLine[2]
+MsgBox(0,$title,$textOnMsgBox)
+MsgBox(1,$title,$textOnMsgBox)

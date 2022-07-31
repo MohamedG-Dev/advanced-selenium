@@ -1,0 +1,4 @@
+$UploadFilePath=$CmdLine[1]
+ControlFocus("Open","","Edit1")
+ControlSetText("Open","","Edit1",$UploadFilePath)
+ControlClick("Open","","Button1")
