@@ -9,3 +9,4 @@
 8. JavaScriptExecutor
 9. sendKeys()
 10. Select Class
+11. Handling Random Activites
