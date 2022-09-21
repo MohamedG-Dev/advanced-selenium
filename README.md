@@ -7,3 +7,5 @@
 6. Stale Element Reference
 7. Database Testing - JDBC Connectivity
 8. JavaScriptExecutor
+9. sendKeys()
+10. Select Class
