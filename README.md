@@ -10,3 +10,4 @@
 9. sendKeys()
 10. Select Class
 11. Handling Random Activites
+12. Encrytion and Decryption of a Text
