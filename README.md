@@ -15,3 +15,5 @@
 14. Handling Tables
 15. Handling XML Files
 16. Handling Json Files
+17. Browser Configurations
+    A. Firefox Browser
