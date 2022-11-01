@@ -17,3 +17,5 @@
 16. Handling Json Files
 17. Browser Configurations
     A. Firefox Browser
+    B. Chrome Browser
+    C. IE Browser
