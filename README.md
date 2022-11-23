@@ -21,3 +21,7 @@
     C. IE Browser
 18. IFrames
 19. Handling Cookies
+20. Downloading Files using Browsers
+    A. Firefox Browser
+    B. Chrome Browser
+    C. EdgeBrowser
