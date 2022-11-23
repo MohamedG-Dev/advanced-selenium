@@ -20,3 +20,4 @@
     B. Chrome Browser
     C. IE Browser
 18. IFrames
+19. Handling Cookies
