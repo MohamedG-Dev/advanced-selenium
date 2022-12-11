@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SuiteTwo" parallel="tests">
+  <test thread-count="5" name="TestD">
+    <classes>
+      <class name="learning.Grid.ParallelExecution.SuiteTwo.TestD"/>
+    </classes>
+  </test> <!-- TestD -->
+  <test thread-count="5" name="TestE">
+    <classes>
+      <class name="learning.Grid.ParallelExecution.SuiteTwo.TestE"/>
+    </classes>
+  </test> <!-- TestE -->
+  <test thread-count="5" name="TestF">
+    <classes>
+      <class name="learning.Grid.ParallelExecution.SuiteTwo.TestF"/>
+    </classes>
+  </test> <!-- TestD -->
+</suite> <!-- SuiteTwo -->

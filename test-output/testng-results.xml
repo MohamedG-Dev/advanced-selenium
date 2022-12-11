@@ -1,170 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="3" failed="1" skipped="1">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[<a href='D:\Learning\selenium\workspace\advanced-selenium\failure_screenshots\testOmayoFail_30_08_2022_02_06_32.png'> <img src='D:\Learning\selenium\workspace\advanced-selenium\failure_screenshots\testOmayoFail_30_08_2022_02_06_32.png' height='100' width='100'/> </a>]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-08-30T14:06:13 IST" name="Suite" finished-at="2022-08-30T14:06:37 IST" duration-ms="24906">
+  <suite started-at="2022-11-29T09:01:02 IST" name="SuiteOne" finished-at="2022-11-29T09:01:05 IST" duration-ms="3150">
     <groups>
     </groups>
-    <test started-at="2022-08-30T14:06:13 IST" name="Test" finished-at="2022-08-30T14:06:37 IST" duration-ms="24906">
-      <class name="learning.TestNGListeners.TestNGListenerDemo">
-        <test-method is-config="true" signature="setup()[pri:0, instance:learning.TestNGListeners.TestNGListenerDemo@15043a2f]" started-at="2022-08-30T14:06:23 IST" name="setup" finished-at="2022-08-30T14:06:25 IST" duration-ms="1352" status="PASS">
+    <test started-at="2022-11-29T09:01:02 IST" name="TestB" finished-at="2022-11-29T09:01:05 IST" duration-ms="3150">
+      <class name="learning.Grid.ParallelExecution.SuiteOne.TestB">
+        <test-method signature="testB()[pri:0, instance:learning.Grid.ParallelExecution.SuiteOne.TestB@313b2ea6]" started-at="2022-11-29T09:01:02 IST" name="testB" finished-at="2022-11-29T09:01:05 IST" duration-ms="3019" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testOmayoTitle()[pri:1, instance:learning.TestNGListeners.TestNGListenerDemo@15043a2f]" started-at="2022-08-30T14:06:25 IST" name="testOmayoTitle" finished-at="2022-08-30T14:06:27 IST" duration-ms="2477" status="PASS">
+        </test-method> <!-- testB -->
+      </class> <!-- learning.Grid.ParallelExecution.SuiteOne.TestB -->
+    </test> <!-- TestB -->
+    <test started-at="2022-11-29T09:01:02 IST" name="TestA" finished-at="2022-11-29T09:01:05 IST" duration-ms="3150">
+      <class name="learning.Grid.ParallelExecution.SuiteOne.TestA">
+        <test-method signature="testA()[pri:0, instance:learning.Grid.ParallelExecution.SuiteOne.TestA@1ff4931d]" started-at="2022-11-29T09:01:02 IST" name="testA" finished-at="2022-11-29T09:01:05 IST" duration-ms="3021" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOmayoTitle -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:learning.TestNGListeners.TestNGListenerDemo@15043a2f]" started-at="2022-08-30T14:06:27 IST" name="setup" finished-at="2022-08-30T14:06:28 IST" duration-ms="1350" status="PASS">
+        </test-method> <!-- testA -->
+      </class> <!-- learning.Grid.ParallelExecution.SuiteOne.TestA -->
+    </test> <!-- TestA -->
+    <test started-at="2022-11-29T09:01:02 IST" name="TestC" finished-at="2022-11-29T09:01:05 IST" duration-ms="3149">
+      <class name="learning.Grid.ParallelExecution.SuiteOne.TestC">
+        <test-method signature="testC()[pri:0, instance:learning.Grid.ParallelExecution.SuiteOne.TestC@3098cf3b]" started-at="2022-11-29T09:01:02 IST" name="testC" finished-at="2022-11-29T09:01:05 IST" duration-ms="3021" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testOmayoFail()[pri:2, instance:learning.TestNGListeners.TestNGListenerDemo@15043a2f]" started-at="2022-08-30T14:06:28 IST" name="testOmayoFail" finished-at="2022-08-30T14:06:32 IST" duration-ms="3291" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#\31 2345"}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-7URID6Q', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [894428f35944233458d9daeb3d2a7474, findElement {using=id, value=12345}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\OSAMA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49566/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 894428f35944233458d9daeb3d2a7474]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#\31 2345"}
-  (Session info: chrome=104.0.5112.102)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DESKTOP-7URID6Q', ip: '192.168.0.109', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [894428f35944233458d9daeb3d2a7474, findElement {using=id, value=12345}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 104.0.5112.102, chrome: {chromedriverVersion: 104.0.5112.79 (3cf3e8c8a07d..., userDataDir: C:\Users\OSAMA\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49566}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49566/devtoo..., se:cdpVersion: 104.0.5112.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 894428f35944233458d9daeb3d2a7474
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
-at learning.TestNGListeners.TestNGListenerDemo.testOmayoFail(TestNGListenerDemo.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<a href='D:\Learning\selenium\workspace\advanced-selenium\failure_screenshots\testOmayoFail_30_08_2022_02_06_32.png'> <img src='D:\Learning\selenium\workspace\advanced-selenium\failure_screenshots\testOmayoFail_30_08_2022_02_06_32.png' height='100' width='100'/> </a>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- testOmayoFail -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:learning.TestNGListeners.TestNGListenerDemo@15043a2f]" started-at="2022-08-30T14:06:33 IST" name="setup" finished-at="2022-08-30T14:06:34 IST" duration-ms="1481" status="PASS">
+        </test-method> <!-- testC -->
+      </class> <!-- learning.Grid.ParallelExecution.SuiteOne.TestC -->
+    </test> <!-- TestC -->
+  </suite> <!-- SuiteOne -->
+  <suite started-at="2022-11-29T09:01:05 IST" name="MasterSuite" finished-at="2022-11-29T09:01:05 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- MasterSuite -->
+  <suite started-at="2022-11-29T09:01:02 IST" name="SuiteTwo" finished-at="2022-11-29T09:01:05 IST" duration-ms="3149">
+    <groups>
+    </groups>
+    <test started-at="2022-11-29T09:01:02 IST" name="TestD" finished-at="2022-11-29T09:01:05 IST" duration-ms="3149">
+      <class name="learning.Grid.ParallelExecution.SuiteTwo.TestD">
+        <test-method signature="testD()[pri:0, instance:learning.Grid.ParallelExecution.SuiteTwo.TestD@2118cddf]" started-at="2022-11-29T09:01:02 IST" name="testD" finished-at="2022-11-29T09:01:05 IST" duration-ms="3021" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testOmayoSkip()[pri:3, instance:learning.TestNGListeners.TestNGListenerDemo@15043a2f]" started-at="2022-08-30T14:06:34 IST" name="testOmayoSkip" finished-at="2022-08-30T14:06:37 IST" duration-ms="3268" status="SKIP">
-          <exception class="org.testng.SkipException">
-            <message>
-              <![CDATA[test method is skipped]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.SkipException: test method is skipped
-at learning.TestNGListeners.TestNGListenerDemo.testOmayoSkip(TestNGListenerDemo.java:36)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:962)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
-at org.testng.TestRunner.privateRun(TestRunner.java:806)
-at org.testng.TestRunner.run(TestRunner.java:601)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:433)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:427)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:387)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.SkipException -->
+        </test-method> <!-- testD -->
+      </class> <!-- learning.Grid.ParallelExecution.SuiteTwo.TestD -->
+    </test> <!-- TestD -->
+    <test started-at="2022-11-29T09:01:02 IST" name="TestE" finished-at="2022-11-29T09:01:05 IST" duration-ms="3149">
+      <class name="learning.Grid.ParallelExecution.SuiteTwo.TestE">
+        <test-method signature="testE()[pri:0, instance:learning.Grid.ParallelExecution.SuiteTwo.TestE@6236eb5f]" started-at="2022-11-29T09:01:02 IST" name="testE" finished-at="2022-11-29T09:01:05 IST" duration-ms="3021" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOmayoSkip -->
-      </class> <!-- learning.TestNGListeners.TestNGListenerDemo -->
-      <class name="learning.TestNGListeners.DemoClassOne">
-        <test-method is-config="true" signature="setup()[pri:0, instance:learning.TestNGListeners.DemoClassOne@63376bed]" started-at="2022-08-30T14:06:13 IST" name="setup" finished-at="2022-08-30T14:06:16 IST" duration-ms="3134" status="PASS">
+        </test-method> <!-- testE -->
+      </class> <!-- learning.Grid.ParallelExecution.SuiteTwo.TestE -->
+    </test> <!-- TestE -->
+    <test started-at="2022-11-29T09:01:02 IST" name="TestF" finished-at="2022-11-29T09:01:05 IST" duration-ms="3149">
+      <class name="learning.Grid.ParallelExecution.SuiteTwo.TestF">
+        <test-method signature="testF()[pri:0, instance:learning.Grid.ParallelExecution.SuiteTwo.TestF@2b4bac49]" started-at="2022-11-29T09:01:02 IST" name="testF" finished-at="2022-11-29T09:01:05 IST" duration-ms="3020" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testOne()[pri:0, instance:learning.TestNGListeners.DemoClassOne@63376bed]" started-at="2022-08-30T14:06:16 IST" name="testOne" finished-at="2022-08-30T14:06:18 IST" duration-ms="2497" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOne -->
-      </class> <!-- learning.TestNGListeners.DemoClassOne -->
-      <class name="learning.TestNGListeners.DemoClassTwo">
-        <test-method is-config="true" signature="setup()[pri:0, instance:learning.TestNGListeners.DemoClassTwo@4c60d6e9]" started-at="2022-08-30T14:06:18 IST" name="setup" finished-at="2022-08-30T14:06:20 IST" duration-ms="1510" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testDemoTwo()[pri:0, instance:learning.TestNGListeners.DemoClassTwo@4c60d6e9]" started-at="2022-08-30T14:06:20 IST" name="testDemoTwo" finished-at="2022-08-30T14:06:23 IST" duration-ms="3461" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDemoTwo -->
-      </class> <!-- learning.TestNGListeners.DemoClassTwo -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- testF -->
+      </class> <!-- learning.Grid.ParallelExecution.SuiteTwo.TestF -->
+    </test> <!-- TestF -->
+  </suite> <!-- SuiteTwo -->
 </testng-results>
